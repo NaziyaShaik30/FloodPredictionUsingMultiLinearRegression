@@ -11,7 +11,7 @@ app = Flask(__name__)
 data1 = pd.read_csv("Project_train.csv")
 x = data1[['MonsoonIntensity', 'TopographyDrainage', 'RiverManagement', 'Deforestation',
            'Urbanization', 'ClimateChange', 'DamsQuality', 'Siltation', 'AgriculturalPractices',
-           'Encroachments', 'IneffectiveDisasterPreparedness', 'DrainageSystems',
+            ,'IneffectiveDisasterPreparedness', 'DrainageSystems',
            'CoastalVulnerability', 'Landslides', 'Watersheds', 'DeterioratingInfrastructure',
            'PopulationScore', 'WetlandLoss', 'InadequatePlanning', 'PoliticalFactors']]
 y = data1['FloodProbability']
